@@ -31,7 +31,7 @@ namespace Microting.TimePlanningBase.Infrastructure.Data.Entities
     /// </summary>
     public class PlanRegistrationVersion : PnBase
     {
-        public int AssignedSiteId { get; set; }
+        public int SdkSitId { get; set; }
 
         public DateTime Date { get; set; }
 
@@ -66,5 +66,9 @@ namespace Microting.TimePlanningBase.Infrastructure.Data.Entities
         public string CommentOfficeAll { get; set; }
 
         public int PlanRegistrationId { get; set; }
+
+        public int StatusCaseId { get; set; }
+
+        public string WorkerComment { get; set; }
     }
 }

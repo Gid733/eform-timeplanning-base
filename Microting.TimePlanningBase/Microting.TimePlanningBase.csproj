@@ -1,21 +1,21 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net5.0</TargetFramework>
+        <TargetFramework>net6.0</TargetFramework>
         <PackageIcon>icon.png</PackageIcon>
     </PropertyGroup>
 
    <ItemGroup>
-      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.6">
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.0">
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
-      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.6">
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.0">
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
-      <PackageReference Include="Microting.eForm" Version="5.2.4" />
-      <PackageReference Include="Microting.eFormApi.BasePn" Version="3.0.14" />
+      <PackageReference Include="Microting.eForm" Version="5.3.10" />
+      <PackageReference Include="Microting.eFormApi.BasePn" Version="3.1.7" />
     </ItemGroup>
 
     <ItemGroup>
@@ -23,6 +23,10 @@
             <Pack>true</Pack>
             <PackagePath>\</PackagePath>
         </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Migrations" />
     </ItemGroup>
 
 </Project>

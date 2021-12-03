@@ -30,7 +30,6 @@ namespace Microting.TimePlanningBase.Infrastructure.Data.Entities
     {
         public int SiteId { get; set; }
 
-        public virtual List<PlanRegistration> PlanRegistrations { get; set; }
-            = new();
+        public int? CaseMicrotingUid { get; set; }
     }
 }
