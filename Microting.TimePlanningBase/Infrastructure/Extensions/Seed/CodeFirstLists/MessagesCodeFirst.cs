@@ -37,6 +37,7 @@ namespace Microting.TimePlanningBase.Infrastructure.Extensions.Seed.CodeFirstLis
         public static readonly Message ChildrenFirstSickMessage = new(7, "Children's 1st sick");
         public static readonly Message ChildrenSecondSickMessage = new(8, "Children's 2nd sick");
         public static readonly Message TimeOffMessage = new(9, "Time off");
+        public static readonly Message EmptyMessage = new(10, " ");
 
         public static List<Message> GetList()
         {
@@ -51,6 +52,7 @@ namespace Microting.TimePlanningBase.Infrastructure.Extensions.Seed.CodeFirstLis
                 ChildrenFirstSickMessage,
                 ChildrenSecondSickMessage,
                 TimeOffMessage,
+                EmptyMessage,
             };
 
             return entryList;
